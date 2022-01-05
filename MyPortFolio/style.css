@@ -1,0 +1,46 @@
+body{
+    background-color: #808080;
+}
+h1{
+    color:coral;
+    background-color: #808080;
+    font-family: cursive;
+    font-size: 35;
+
+}
+*{
+    border: solid #800080;
+}
+.menu{
+    display:flex;
+    justify-content: center;
+}
+.footer{
+    display:flex;
+    justify-content: flex-end;
+}
+p{
+    text-decoration: underline;
+    text-decoration-color: blue;
+    border-radius: 30%;
+}
+.item {
+    position: relative;
+}
+.item p{
+    
+    position: absolute;
+    top: 8%;
+    left: 50%;
+    transform: translate(-50%,-200%);
+    opacity: 0;
+}
+.item:hover p{
+    opacity: 1;
+}
+.item img {
+    opacity: 0.3;
+}
+.item:hover img{
+     opacity: 1;
+}
